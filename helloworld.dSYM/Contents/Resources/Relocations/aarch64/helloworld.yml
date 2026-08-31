@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/joshguzman/Documents/College/Fall 2026/CS 4080.02 Concepts of Programming Languages/helloworld'
+relocations:     []
+...
