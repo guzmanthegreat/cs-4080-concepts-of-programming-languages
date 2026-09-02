@@ -1,3 +1,8 @@
+// Do the same thing for C. To get some practice with pointers, 
+// define a doubly-linked list of heap-allocated strings. 
+// Write functions to insert, find, and delete items from it. Test them.
+
+
 #include <stdio.h>
 
 #include <stdio.h>
