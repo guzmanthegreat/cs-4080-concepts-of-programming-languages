@@ -1,0 +1,3 @@
+Pick an open source implementation of a language you like. Download the source code and poke around in it. Try to find the code that implements the scanner and parser. Are they hand-written, or generated using tools like Lex and Yacc? ( .l or .y files usually imply the latter.)
+
+**Answer: I explored OpenJDK’s Java compiler, javac. Its scanner and parser are in the com/sun/tools/javac/parser folder. JavaTokenizer.java turns characters into tokens. JavacParser.java turns those tokens into a syntax tree. Both are handwritten in Java. The parser uses recursive descent. It does not use Lex or Yacc.**
