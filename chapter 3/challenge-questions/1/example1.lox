@@ -1,0 +1,10 @@
+var followerCount = 0;
+
+fun addFollower(name, username) {
+		print(username + " is now a follower!");
+		followerCount = followerCount + 1;
+	}
+addFollower("josh", "guzmanthegreat");
+addFollower("miranda", "mmirandarendon");
+addFollower("adam", "adam.z.mitchell");
+print followerCount;
